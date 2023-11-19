@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+<!--        <item-->
+<!--            android:id="@+id/nav_home"-->
+<!--            android:title="Trang chủ"/>-->
+        <item
+            android:id="@+id/nav_vehicles"
+            android:title="Vehicles"/>
+        <item
+            android:id="@+id/nav_brands"
+            android:title="Brands"/>
+
+        <item
+            android:id="@+id/nav_orders"
+            android:title="Orders"/>
+
+        <item
+            android:id="@+id/nav_accounts"
+            android:title="Accounts"
+            />
+
+    </group>
+<!--    <item android:title="Thống kê">-->
+<!--        <menu>-->
+<!--            <item-->
+<!--                android:id="@+id/nav_Bangxephang"-->
+<!--                android:title="Bảng xếp hạng"/>-->
+<!--            <item-->
+<!--                android:id="@+id/nav_doanhthu"-->
+<!--                android:title="Doanh thu"/>-->
+<!--        </menu>-->
+<!--    </item>-->
+    <item android:title="Exit"
+        android:id="@+id/nav_exit"
+        />
+
+</menu>

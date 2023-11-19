@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:gravity="center_horizontal">
+
+    <EditText
+        android:id="@+id/edImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Image link"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/edName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Vehicle"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/edPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Price"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/edQuantity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Quantity"
+        android:layout_marginTop="10dp"/>
+
+    <Spinner
+        android:id="@+id/spBrand"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="right"
+        android:layout_marginTop="10dp">
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Cancel"
+            android:layout_marginEnd="10dp"/>
+        <Button
+            android:id="@+id/btnAccept"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Add"
+            android:layout_marginLeft="10dp"/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">OnlineShopingApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="navigationdrawer_open">Open navigation drawer</string>
+    <string name="navigationdrawer_close">Close navigation drawer</string>
+
+    <string name="see_all"><b><u>SEE ALL</u></b></string>
+
+
+    <string name="noti_delete">Want to delete?</string>
+    <!--    <string name=""></string>-->
+
+</resources>
